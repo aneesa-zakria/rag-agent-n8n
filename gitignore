@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# n8n local runtime (if you ever run n8n in this folder)
+.n8n/
+n8n-data/
+
+# Env files - NEVER commit real credentials
+.env
+.env.*
+!.env.example
